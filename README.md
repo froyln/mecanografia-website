@@ -1,2 +1,2 @@
 # mecanografia-website
-Pagina web programada con Html, CSS y JavaScript.
+Pagina web para practicar mecanografia programada con Html, CSS y JavaScript.
