@@ -1,14 +1,13 @@
 body {
     background-color: #000000;
-    /* background-image: url("https://wallpapercave.com/wp/wp14037542.gif"); */
     font-family: "Jersey 15", sans-serif;
     margin: 0;
     padding: 20px;
 
 }
 body {
-    transform: scale(1.5); /* Escala todo un 20% más grande */
-    transform-origin: top; /* Define el punto de origen del escalado */
+    transform: scale(1.5); 
+    transform-origin: top; 
     overflow-x: hidden;
 }
 
@@ -54,7 +53,6 @@ body {
     block-size: 100%;
     padding: 10px;
     text-align: center;
-    /* margin-top: 110px; */
 }
 
 .titulo_secundario {
@@ -65,8 +63,6 @@ body {
     border-style: solid;
     border-radius: 0px;
     border-width: 2px;
-    /* border-color: #002534;
-    background-color: #005577; */
     min-width: 100px;
     max-width: 350px;
     block-size: 100%;
@@ -121,7 +117,6 @@ body {
 
 .estilo-ventana {
     color: #000000;
-    /* background-image: url("https://st3.depositphotos.com/1184748/15131/i/450/depositphotos_151311046-stock-photo-colorful-background-realistic-flickering-analog.jpg");  */ 
     padding: auto;
     text-align: right;
 } 
@@ -258,42 +253,42 @@ body {
 #boton_abrir_teclado{
     text-align: center; 
     margin-top: 20px;
-    display: none; /* Oculta el botón en pantallas pequeñas */
+    display: none; 
 }
 
 @media screen and (max-width: 768px) {
     body {
-        transform: scale(1); /* Elimina el escalado para pantallas pequeñas */
+        transform: scale(1);
         transform-origin: top;
         overflow-x: hidden;
-        padding: 10px; /* Reduce el padding */
+        padding: 10px; 
     }
 
     .titulo_principal {
-        font-size: 30px; /* Reduce el tamaño de la fuente */
+        font-size: 30px; 
     }
 
     .titulo_secundario {
-        font-size: 12px; /* Reduce el tamaño de la fuente */
+        font-size: 12px; 
     }
 
     .redes {
-        font-size: 10px; /* Reduce el tamaño de la fuente */
+        font-size: 10px; 
     }
 
     .redes-sociales {
-        font-size: 10px; /* Reduce el tamaño de la fuente */
+        font-size: 10px;
     }
 
     .container {
-        min-width: 90%; /* Usa un ancho relativo */
+        min-width: 90%; 
         max-width: 90%;
         margin: auto;
     }
 
     .container {
-        position: relative; /* Asegura que los hijos puedan usar z-index */
-        z-index: 0; /* No limita la profundidad */
+        position: relative; 
+        z-index: 0; 
     }
 
     .decoracion1 {
@@ -315,29 +310,29 @@ body {
     }
 
     #pixel-cat {
-        width: 60px; /* Reduce el tamaño del gato */
+        width: 60px; 
         margin-top: 25px;
         z-index: 1;
     }
 
     #pixel-cat-aceptar {
-        font-size: 12px; /* Reduce el tamaño del texto */
+        font-size: 12px;
         padding: 5px;
         margin-top: 10px;
         z-index: 1;
     }
 
     .textos_bottom {
-        flex-direction: column; /* Cambia la disposición a vertical */
+        flex-direction: column; 
         align-items: center;
     }
 
     .textos_bottom_palabras {
-        font-size: 12px; /* Reduce el tamaño de las palabras */
+        font-size: 12px; 
     }
 
     #boton_abrir_teclado{
-        display: block; /* Oculta el botón en pantallas pequeñas */
+        display: block;
     }
 
     #campo-entrada {
@@ -353,5 +348,9 @@ body {
         border-radius: 5px;
         cursor: pointer;
         text-decoration: none;
+    }
+
+    #textos_palabras_tecleadas{
+        padding-right: 0px;
     }
 }
